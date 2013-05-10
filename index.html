@@ -1,12 +1,108 @@
 <html>
 <head>
-  <title>Pagina Teste</title>
+  <title>Pagina Teste com Grid</title>
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="css.css">
-  <!-- <script type="text/javascript" src="js.js"></script> -->
-  <script src="jquery-1.9.1.js"></script>
-  <script src="meujquery.js"></script>
+  <script src="http://code.jquery.com/jquery.js"></script>
 </head>
+
 <body>
+  <div class="container wrapper">
+    <header class="row">
+      <div class="span12">
+        <p class="lead">Estou escrevendo algo que se destaca.</p>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="menu_horizontal">
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+          <li><a href="#">Link 5</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row conteudo_wrapper">
+      <div class="span4 menu_vertical">
+        <h3>Menu 1</h3>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+      </div>
+
+      <div class="span8 conteudo">
+        <p>
+          <form>
+            <table>
+              <tr>
+                <td>
+                  <input disabled="true" type="text" value=''>
+                </td>
+
+                <td colspan="3">
+                  <input disabled="true" type="text" value='0'>
+                </td>
+              </tr>
+
+              <tr>
+                <td><button class="but botaoInsereNumero" type="button">7</button></td>
+                <td><button class="but botaoInsereNumero" type="button">8</button></td>
+                <td><button class="but botaoInsereNumero" type="button">9</button></td>
+                <td><button class="but botaoInsereOperacao" type="button">+</button></td>
+              </tr>
+
+              <tr>
+                <td><button class="but botaoInsereNumero" type="button">4</button></td>
+                <td><button class="but botaoInsereNumero" type="button">5</button></td>
+                <td><button class="but botaoInsereNumero" type="button">6</button></td>
+                <td><button class="but botaoInsereOperacao" type="button">-</button></td>
+              </tr>
+
+              <tr>
+                <td><button class="but botaoInsereNumero" type="button">1</button></td>
+                <td><button class="but botaoInsereNumero" type="button">2</button></td>
+                <td><button class="but botaoInsereNumero" type="button">3</button></td>
+                <td><button class="but botaoInsereOperacao" type="button">*</button></td>
+              </tr>
+
+              <tr>
+                <td><button class="but botaoInsereNumero" type="button">0</button></td>
+                <td><button class="but botaoInsereNumero" type="button">.</button></td>
+                <td><button class="but botaoInsereOperacao" type="button">/</button></td>
+                <td><button class="but botaoCalcula" type="button">=</button></td>
+              </tr>
+
+              <tr>
+                <td colspan="4"><button class="botaoLimpa" type="button">Limpar</button></td>
+              </tr>
+            </table>
+            <br>
+          </form>
+        </p>
+        <p>
+          Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+          Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </p>  
+      </div>
+    </div>
+
+    <footer class="row">
+      Todos os direitos reservados &#169; Pagina Teste
+    </footer>
+  </div>
+</body>
+<!-- <body>
   <div id="wrapper">
     <div id="header">
       <h1><a href="index.html" alt="home">Titulo aqui</a></h1>
@@ -96,6 +192,9 @@
       Todos os direitos reservados &#169; Pagina Teste
     </div>
   </div>
-</body>
+</body> -->
+
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="js.js"></script>
 
 </html>

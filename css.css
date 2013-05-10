@@ -1,5 +1,31 @@
 body
 {
+  color: #686868;
+}
+
+.wrapper
+{
+  background-color: #BABACA;
+}
+
+header
+{
+ background: lightblue;
+}
+
+footer
+{
+  background: pink;
+}
+
+.conteudo_wrapper
+{
+  background: #BABACA;
+}
+
+/*
+body
+{
   font-family: "Helvetica";
   color: #686868;
   text-align: center;
@@ -207,3 +233,4 @@ button
   position: relative;
 }
 
+*/
