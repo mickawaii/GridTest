@@ -1,236 +1,108 @@
 body
 {
   color: #686868;
-}
-
-.wrapper
-{
-  background-color: #BABACA;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header
 {
- background: lightblue;
+  padding: 50px 0px 0px 0px;
 }
 
 footer
 {
-  background: pink;
-}
-
-.conteudo_wrapper
-{
   background: #BABACA;
 }
 
-/*
-body
-{
-  font-family: "Helvetica";
-  color: #686868;
-  text-align: center;
-  margin: 10px;
+p{
+  text-align: justify;
 }
 
 h1
 {
+  font-family: "Times New Roman";
   font-size: 50px;
-  font-family: "Times";
   font-weight: normal;
-}
-
-h1 a, a:visited
-{
-  color: #686868;
 }
 
 h2
 {
+  font-family: "Times New Roman";
   font-size: 30px;
   font-weight: normal;
-  font-family: "Times New Roman";
+  border-bottom: 1px solid #EBEBEB;
 }
 
-h3
+.checkbox
 {
-  font-size: 25px;
-  font-weight: normal;
-  font-family: "Times New Roman";
+  margin-top
 }
 
-a
+.infinito
 {
+  width: 100%;
+  padding: 0;
+}
+
+.conteudo_wrapper
+{
+  padding: 20px 0 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_horizontal
+{
+  background: #316239;
+}
+
+.menu_horizontal a 
+{
+  color: white;
+  margin: 0 10px 0 10px;
+  padding: 10px;
+  height: 12px;
+  display: block;
+}
+
+.menu_horizontal a:hover, .menu_horizontal a:active
+{
+  color: #FFFF99;
   text-decoration: none;
 }
 
-#wrapper
+.menu_vertical
 {
-  width: 900px;
-  position: relative;
-  background-color: #BABACA;
-  border: 10px solid #F8F8F8;
-  margin: 0 auto;
-  padding: 0;
+  text-align: center;
+  padding-left: 0px;
+  width: 200px;
+  background: #F3F3F3;
+  border-radius: 5px;
 }
 
-#header
-{
-  height: 120px;
-  background-color: #F0F0F0;
-  font-size: 40px;
-  color: #686868;
-  padding: 10px;
-}
-
-#menuHorizontal
-{
-  width: 900px;
-  height: 30px;
-}
-
-#menuHorizontal li
-{
-  display: inline;
-}
-
-#menuHorizontal a 
-{
-  color: black;
-  margin: 0 15px 0 15px;
-}
-
-#menuHorizontal a:hover, #menuHorizontal a:active
-{
-  color: #FFFF99;
-}
-
-#menuVertical
-{
-  width: 230px;
-  height: 900px;
-  float: left;
-  background-color: #383838;
-  color: #FFFF99;
-}
-
-#menuVertical ul
-{
-  list-style-type: none;
-  padding: 0;
-}
-
-#menuVertical li
-{
-  padding: 5px 0 5px 0;
-  text-indent: 0;
-}
-
-#menuVertical a, #menuVertical a:visited
+.menu_vertical a, .menu_vertical a:visited
 {
   color: #888888;
-  border-bottom: 1px solid #505050;
-  border-left: 7px solid #505050;
-  height: 25px;
-  width: 80%;
   padding-top: 10px;
-  margin-left: 17px;
   display: block;
 }
 
-#menuVertical a:hover, #menuVertical a:active
+.menu_vertical a:hover, .menu_vertical a:active
 {
   color: #F0F0F0;
   font-weight: normal;
-  border-bottom: 1px solid #FFFF99;
-  border-left: 7px solid #FFFF99;
+  text-decoration: none;
 }
 
-#conteudo
+.imagem
 {
-  width: 630px;
-  height: 800px;
-  float: right;
-  text-align: justify;
-  padding: 20px;
-  background-color: #F0F0F0;
+  border-radius: 5px;
+  border: #F9F9F9 10px solid;
+  background: #EBEBEB;
+  height: 250px;
+  width: 200px;
+  margin: 20px 0 20px 0;
 }
-
-#footer
-{
-  width: 900px;
-  height: 30px;
-  clear: both;
-  background-color: #FFFF99;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 10px;
-  text-align: center;
-  padding: 13px 0 0 0;
-}
-
-.center
-{
-  text-align: center;
-}
-
-button
-{
-  color: #505050;
-  font-size: 15px;
-  text-align: center;
-}
-
-.botaoCalcula
-{ 
-  width: 40px;
-  height: 84px;
-}
-
-.but
-{
-  width: 40px;
-  height: 40px;
-}
-
-.botaoLimpa
-{
-  width: 172px;
-  height: 40px;
-}
-
-#displayNumero
-{
-  height: 25px;
-  width: 128px;
-  margin-bottom: 6px;
-  display: block;
-  font-size: 20px;
-  text-align: right;
-}
-
-#displayOperacao
-{
-  height: 25px;
-  width: 35px;
-  margin-bottom: 6px;
-  display: block;
-  font-size: 20px;
-  text-align: center;
-}
-
-#displayNumero:disabled, #displayOperacao:disabled
-{
-  border: 1px solid gray;
-}
-
-.div_maroto
-{
-  width: 100px;
-  height: 100px;
-  background: lightblue;
-  position: relative;
-  text-align: center;
-  position: relative;
-}
-
-*/
