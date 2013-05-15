@@ -55,6 +55,9 @@ h3
 .conteudo_wrapper
 {
   padding: 20px 0 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .menu_horizontal
@@ -106,6 +109,7 @@ h3
   border: #F9F9F9 10px solid;
   background: #EBEBEB;
   height: 250px;
+<<<<<<< HEAD
   width: 90%;
   margin: 20px auto;
 }
