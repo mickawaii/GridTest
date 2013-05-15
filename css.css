@@ -1,0 +1,167 @@
+body
+{
+  color: #686868;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header
+{
+  padding: 50px 0px 0px 0px;
+}
+
+footer
+{
+  background: #BABACA;
+}
+
+p{
+  text-align: justify;
+}
+
+h1
+{
+  font-family: "Times New Roman";
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2
+{
+  font-family: "Times New Roman";
+  font-size: 30px;
+  font-weight: normal;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+h3
+{
+  font-family: "Times New Roman";
+  font-size: 30px;
+  padding-bottom: 8px;
+  margin: 0px;
+  line-height: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.infinito
+{
+  width: 100%;
+  padding: 0;
+}
+
+.conteudo_wrapper
+{
+  padding: 20px 0 20px 0;
+}
+
+.menu_horizontal
+{
+  background: #316239;
+}
+
+.menu_horizontal a 
+{
+  color: white;
+  margin: 0 10px 0 10px;
+  padding: 10px;
+  height: 12px;
+  display: block;
+}
+
+.menu_horizontal a:hover, .menu_horizontal a:active
+{
+  color: #FFFF99;
+  text-decoration: none;
+}
+
+.menu_vertical
+{
+  text-align: center;
+  padding-left: 0px;
+  width: 200px;
+  background: #F3F3F3;
+  border-radius: 5px;
+}
+
+.menu_vertical a, .menu_vertical a:visited
+{
+  color: #888888;
+  padding-top: 10px;
+  display: block;
+}
+
+.menu_vertical a:hover, .menu_vertical a:active
+{
+  color: #F0F0F0;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.imagem
+{
+  border-radius: 5px;
+  border: #F9F9F9 10px solid;
+  background: #EBEBEB;
+  height: 250px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.menu_flutuante
+{
+  background: #DBDBDB;
+  position: fixed;
+  text-align: center; 
+  top: 170px;
+  right: 10px;
+  border: #F2F2F2 8px solid;
+  font-size: 30px;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100px;
+  height: 50px;
+  transition: all 0.5s linear;
+  overflow: hidden;
+
+}
+
+.menu_flutuante:hover {
+  width: 200px;  
+  height: 400px;
+}
+
+
+.sub_menu
+{
+  transition: all 0.5s linear;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+
+.menu_flutuante:hover .sub_menu {
+  opacity: 1;
+}
+
+.sub_menu ul
+{
+  margin-top: 10px;
+}
+
+
+.sub_menu li
+{
+  margin: 10px 0px;
+}
+
+.sub_menu a 
+{
+  padding: 0px 35px;
+}
